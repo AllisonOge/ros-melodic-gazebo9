@@ -25,7 +25,7 @@ P.S. you might fall into the famous HOST VERIFICATION ERROR with SSH. To avert t
 
 Build the docker image with the command `docker build -t ros-melodic-gazebo9 .` 
 
-To enable X11 forwarding, install [Xming Windows X server](https://sourceforge.net/projects/xming/) and set the display to multiple windows and the display number to 0. 
+To enable X11 forwarding, install [Xming Windows X server](https://sourceforge.net/projects/xming/) and set the display to multiple windows and the display number to 0. Then, accept the defaults for the configuration.  
 
 ![xlaunch-settings](https://wiki.cortexlab.fr/lib/exe/fetch.php?media=win_ssh_xlaunch1.png)
 
@@ -39,3 +39,4 @@ P.S. This command should be run only once and with the container running, create
 ```bash
 docker exec -it projectuav bash
 ```
+![Screenshot (114)](https://user-images.githubusercontent.com/44110875/201895820-337f383b-915e-410f-8251-738cbc25347b.png)
