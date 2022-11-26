@@ -23,7 +23,7 @@ P.S. you might fall into the famous HOST VERIFICATION ERROR with SSH. To avert t
 
 ### Windows
 
-Clone this repository and build the docker image with the command `docker build -t ros-melodic-gazebo9 .` within the cloned directory. 
+Clone this repository and build the docker image with the command `docker build -t ros-melodic-gazebo9 .` in the cloned repository 
 
 To enable X11 forwarding, install [Xming Windows X server](https://sourceforge.net/projects/xming/) and set the display to multiple windows and the display number to 0. Then, accept the defaults for the configuration.  
 
